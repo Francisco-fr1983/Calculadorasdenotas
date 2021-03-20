@@ -1,0 +1,29 @@
+
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.example.calculadoradenotas"
+        android:versionCode="1"
+        android:versionName="1.0"
+        tools:ignore="ExtraText"
+        xmlns:dist="http://schemas.android.com/apk/distribution">
+
+        <dist:module dist:instant="true" />
+
+<aplicação
+    android:allowBackup = "true"
+    android:icon = " @ mipmap / ic_launcher "
+    android:label = " @ string / app_name "
+    android:roundIcon = " @ mipmap / ic_launcher_round "
+    android:supportRtl = " true "
+    android:theme = "@style/Theme.CalculadoraDeNotas">
+    <activity android:name = ".MainActivity">
+        <filtrodeintenção>
+            <action android:name = "android.intent.action.MAIN"/>
+
+            <categoria android:name = "android.intent.category.LAUNCHER"/>
+        </filtrodeintenção>
+    </activity>
+</aplicação>
+
+</manifest>
+
